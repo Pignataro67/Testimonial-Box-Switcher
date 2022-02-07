@@ -56,3 +56,11 @@ body {
 .user .user-details {
   margin-left: 10px;
 }
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
