@@ -42,7 +42,7 @@ body {
   
 .user {
   display: flex;
-  align-items: center;
+align-items: center;
   justify-content: center;
 }
 
@@ -55,6 +55,15 @@ body {
 
 .user .user-details {
   margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
 }
 
 .progress-bar {
