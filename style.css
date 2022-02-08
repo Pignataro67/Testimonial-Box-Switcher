@@ -65,6 +65,12 @@ body {
   transform-origin: left;
 }
 
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
 @media (max-width: 768px) {
   .testimonial-container {
     padding: 20px 30px;
